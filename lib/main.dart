@@ -8,7 +8,7 @@
 *  HAHA GET THAT... :)
 *  ============================================
 */
-import 'package:connelblaze_examples/splashscreen/ball%20bounce/index.dart';
+import 'package:connelblaze_examples/splashscreen/Fadein%20and%20Slide/index.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const BallBounceIndex(),
+      home: const FadeInAndSlide(),
     );
   }
 }
